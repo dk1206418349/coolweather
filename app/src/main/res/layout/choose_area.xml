@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
+    android:fitsSystemWindows="true"
     android:orientation="vertical">
 <!--定义了一个头布局来作为标题栏，将布局高度设置为
 actionBar的高度，背景色设置为colorPrimary,
@@ -23,8 +24,8 @@ ActionBar或Toolbar，不然在复用的时候可能会出现一些你不想看�
 
         <Button
             android:id="@+id/back_button"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"

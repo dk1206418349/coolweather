@@ -2,8 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<!--个居中显示城市名，一个居右显
-示更新时间。-->
+
+    <Button
+        android:id="@+id/nav_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_launcher_foreground" />
+    <!--个居中显示城市名，一个居右显
+    示更新时间。-->
     <TextView
         android:id="@+id/title_city"
         android:layout_width="wrap_content"
